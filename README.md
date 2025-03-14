@@ -1,8 +1,12 @@
-# 📚 Bookstore Backend - MERN Stack 
+# 📚 MERN Stack Book List Project
+
+Overview
+
+This is a full-stack MERN (MongoDB, Express, React, Node.js) project that allows users to manage a book list. Users can create, read, update, and delete books using a simple and intuitive interface.
+
+Frontend deployed at : https://bookstore-azure-phi.vercel.app/
 
 Backend deployed at : https://bookstore-hoac.onrender.com
-
-This is the **backend** of the MERN stack Bookstore application. It is built using **Node.js, Express.js, and MongoDB** to provide RESTful APIs for managing books.
 
 ## 🚀 Features
 - CRUD operations for books (Create, Read, Update, Delete)
@@ -28,7 +32,7 @@ backend/
 ## 🛠 Setup and Installation
 ### **1. Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/bookstore-backend.git
+git clone https://github.com/yourusername/bookstore.git
 cd bookstore-backend
 ```
 ### **2. Install Dependencies**
@@ -43,7 +47,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/bookstore?retr
 ```
 ### **4. Start the Server**
 ```sh
-npm start
+npm run dev
 ```
 The backend will run on `http://localhost:5555` by default.
 
