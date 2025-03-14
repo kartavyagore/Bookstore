@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("https://bookstore-hoac.onrender.com/")
+      .get("https://bookstore-hoac.onrender.com/books")
       .then((response) => {
         setBooks(response.data.data);
         setLoading(false);
